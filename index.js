@@ -30,9 +30,11 @@ function dec(a){
 }
 
 function makeInt(a){
-  a = parseInt(a, 10)
-  console.log(a)
+  return parseInt(a)
 }
+
+function makeInt(a){
+  return parseInt(a, 10)
 
 function preserveDecimal(n){
   return parseFloat('a')
