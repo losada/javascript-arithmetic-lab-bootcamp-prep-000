@@ -30,10 +30,7 @@ function dec(a){
 }
 
 function makeInt(a){
-  return parseInt('a', 10)
-  if (a === NaN){
-    return 0
-  }
+  return a = parseInt('a', 10)
 }
 
 function preserveDecimal(n){
