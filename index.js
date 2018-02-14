@@ -10,7 +10,7 @@ function add(a, b){
 }
 
 function substract(a, b){
-  return a - b
+  return b-a
 }
 
 function multiply(a, b){
