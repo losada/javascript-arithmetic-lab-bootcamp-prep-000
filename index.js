@@ -29,10 +29,10 @@ function dec(a){
   return a -= 1
 }
 
-function makeInt(n){
+function makeInt(a){
   return parseInt('a', 10)
 }
 
-function preserveDecimal(n){
+function preserveDecimal(a){
   return parseFloat('a')
 }
