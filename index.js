@@ -25,13 +25,17 @@ function inc(a){
   return a += 1
 }
 
-it('inc(n) increments n and returns the result', function() {
-  expect(inc(a)).toEqual(a + 1)
-})
+function dec(a){
+  return a -= 1
+}
 
-it('dec(n) decrements n and returns the result', function() {
-  expect(dec(a)).toEqual(a - 1)
-})
+function makeInt(a){
+  return parseInt(a,10)
+}
+
+function preserveDecimal(a){
+  retun parseFloat(a)
+}
 
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
