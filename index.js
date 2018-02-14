@@ -31,6 +31,9 @@ function dec(a){
 
 function makeInt(a){
   return parseInt('a', 10)
+  if (a === NaN){
+    return 0
+  }
 }
 
 function preserveDecimal(n){
