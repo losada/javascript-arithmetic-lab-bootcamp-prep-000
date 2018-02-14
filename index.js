@@ -30,8 +30,7 @@ function dec(a){
 }
 
 function makeInt(a){
-  var a = parseInt(a, 10)
-  return  a
+  a = parseInt(a, 10)
 }
 
 function preserveDecimal(n){
